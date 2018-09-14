@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { withAuthenticator } from 'aws-amplify'
+import { withAuthenticator } from 'aws-amplify-react'
 
 class App extends Component {
   render() {
@@ -20,6 +20,6 @@ class App extends Component {
   }
 }
 
-export default withAuthenticator(App)
+export default withAuthenticator(App, { includeGreetings: true })
 
 
