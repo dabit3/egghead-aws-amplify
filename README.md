@@ -1,6 +1,6 @@
 # Egghead.io - How to Build Serverless Web Applications with React & AWS Amplify
 
-This repo goes along with the free video course on Egghead.io.
+This repo goes along with the video course on Egghead.io.
 
 ## Getting started
 
